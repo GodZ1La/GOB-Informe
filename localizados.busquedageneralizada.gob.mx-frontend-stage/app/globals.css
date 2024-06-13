@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 7px;
+  background-color: #ff666e;
+  transform-origin: 0%;
+  z-index: 50;
+}
+@media (max-width: 1024px) {
+  .text-lg {
+    font-size: 14px;
+  }
+  .text-base {
+    font-size: 12px;
+  }
+}
+.bg-final {
+  background-image: url(/images/final.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fbfef2;
+}
